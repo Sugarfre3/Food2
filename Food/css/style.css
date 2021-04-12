@@ -1,0 +1,622 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+nav{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  min-height: 17vh;
+
+}
+.nav-links{
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+}
+.nav-links a:hover{
+  opacity: .5;
+}
+.nav-links li{
+  list-style: none;
+}
+.nav-links a{
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 15px;
+  transition: 0.3s linear;
+}
+.searchBoxContainer{
+  margin-top: -13px;
+  vertical-align: top;
+  border: 6px solid white;
+  padding: 4px 0px;
+  border-radius: 26px;
+  outline: none;
+  background-color: white;
+}
+.searchElementsContainer{
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+}
+.Search{
+  border: none;
+  height: 100%;
+  width: 100%;
+  padding: 0px 5px;
+  border-radius: 26px;
+  outline: none;
+  color: black;
+}
+.material-icons{
+  color: black;
+  vertical-align: middle;
+}
+body{
+  overflow-x: hidden;
+  height: 2300px;
+}
+.section1{
+  height: 700px;
+  background: url('../images/back1.png') no-repeat center fixed;
+  background-size: cover;
+}
+header{
+  background: url('../images/back1.png') no-repeat center fixed;
+  background-size: cover;
+}
+.section1FoodPlate{
+  width: 500px;
+  height: 500px;
+  float: right;
+  position: relative;
+  left: -75px;
+  top: 80px;
+}
+.section1SmallPlate{
+  width: 230px;
+  height: 230px;
+  position: relative;
+  left: 700px;
+  top: 470px;
+}
+.section1Leaves{
+  width: 450px;
+  height: 350px;
+  float: right;
+  position: relative;
+  left: 490px;
+  top: 460px;
+}
+.section1YourLogo{
+  width: 100px;
+  height: 80px;
+  position: relative;
+  top: -150px;
+  left: 150px;
+}
+.section1Title{
+  font-family: 'Rock Salt', cursive;
+  color: white;
+  font-size: 60px;
+  position: relative;
+  left: 150px;
+  top: -150px;
+  letter-spacing: 7px;
+}
+.section1SubTitle{
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 25px;
+  letter-spacing: 2px;
+  position: relative;
+  top: -120px;
+  left: 140px;
+}
+.section1ReadMore{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  position: relative;
+  left: 140px;
+  top: -70px;
+  background-color: white;
+  border: none;
+  padding: 10px 32px;
+  text-decoration: none;
+  font-size: 20px;
+  border-radius: 26px;
+  outline: none;
+  cursor: pointer;
+  transition: 0.3s linear;
+}
+.section1ReadMore:hover{
+  opacity: .5;
+}
+.section1Paragrapgh{
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-style: italic;
+  letter-spacing: 1px;
+  white-space: pre;
+  position: relative;
+  left: 140px;
+  top: -50px;
+}
+.section2{
+  height: 900px;
+  background-color: white;
+}
+.leftPastaPlate{
+  height: 300px;
+  width: 300px;
+  position: relative;
+  top: 300px;
+  left: 150px;
+}
+.middlePastaPlate{
+  height: 300px;
+  width: 300px;
+  position: relative;
+  top: 300px;
+  left: 310px;
+}
+.rightPastaPlate{
+  height: 300px;
+  width: 300px;
+  position: relative;
+  top: 310px;
+  left: 470px;
+}
+.section2Title{
+  text-align: center;
+  position: relative;
+  top: -300px;
+  font-family: 'Rock Salt', cursive;
+  font-size: 60px;
+}
+.section2SubTitle{
+  text-align: center;
+  position: relative;
+  white-space: pre;
+  top: -290px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+}
+.leftPastaTitle{
+  position: relative;
+  left: 200px;
+  top: 105px;
+  font-size: 25px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+.middlePastaTitle{
+  position: relative;
+  left: 655px;
+  top: 72px;
+  font-size: 25px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+.rightPastaTitle{
+  position: relative;
+  left: 1120px;
+  top: 40px;
+  font-size: 25px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+.leftPastaDescription{
+  position: relative;
+  font-size: 17px;
+  font-family: 'Open Sans', sans-serif;
+  white-space: pre;
+  left: 200px;
+  top: 40px;
+}
+.middlePastaDescription{
+  position: relative;
+  font-size: 17px;
+  font-family: 'Open Sans', sans-serif;
+  white-space: pre;
+  left: 655px;
+  top: -6px;
+}
+.rightPastaDescription{
+  position: relative;
+  font-size: 17px;
+  font-family: 'Open Sans', sans-serif;
+  white-space: pre;
+  left: 1120px;
+  top: -52.5px;
+}
+.section2ShowMore{
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  font-weight: 800;
+  background-color: black;
+  border: none;
+  padding: 15px 42px;
+  text-decoration: none;
+  font-size: 20px;
+  border-radius: 26px;
+  outline: none;
+  position: relative;
+  left: 640px;
+  top: 65px;
+  letter-spacing: 3px;
+  cursor: pointer;
+  transition: 0.3s linear;
+}
+.section2ShowMore:hover{
+  opacity: .5;
+}
+.section3{
+  height: 500px;
+  background-color: #27292c;
+}
+.section3Title{
+  color: white;
+  text-align: center;
+  position: relative;
+  top: 10px;
+  font-family: 'Rock Salt', cursive;
+  font-size: 60px;
+}
+.section3LeftParagraph{
+  color: white;
+  white-space: pre;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  transform: translateX(50%) translateY(60%);
+  vertical-align: center;
+}
+.section3RightParagraph{
+  color: white;
+  white-space: pre;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  transform: translateX(20%) translateY(-40%);
+}
+.section3MoreInfo{
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  background-color: white;
+  font-weight: 800;
+  border: none;
+  padding: 10px 42px;
+  font-size: 20px;
+  border-radius: 26px;
+  outline: none;
+  cursor: pointer;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%,0);
+  top: 70px;
+  transition: 0.3s linear;
+}
+.section3MoreInfo:hover{
+  opacity: .5;
+}
+.section4{
+  height: 1300px;
+  background-color: white;
+}
+.section4LeftPlate{
+  height: 600px;
+  width: 600px;
+  display: block;
+  margin: 0 auto;
+  transform: translateX(-55%) translateY(10%);
+}
+.section4RightTitle{
+  white-space: pre;
+  transform: translateX(55%) translateY(-400%);
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700px;
+  font-size: 43px;
+}
+.section4RightParagraph{
+  white-space: pre;
+  transform: translateX(55%) translateY(-400%);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+}
+.section4RightButton{
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  background-color: black;
+  display: block;
+  margin: 0 auto;
+  font-weight: 700;
+  border: none;
+  padding: 10px 42px;
+  border-radius: 26px;
+  outline: none;
+  cursor: pointer;
+  font-size: 20px;
+  letter-spacing: 3px;
+  transform: translateX(80%) translateY(-800%);
+  transition: 0.3s linear;
+}
+.section4RightButton:hover{
+  opacity: .5;
+}
+.section4leftLowerTitle{
+  white-space: pre;
+  font-family: 'Open Sans', sans-serif;
+  transform: translateX(15%) translateY(-90%);
+  font-weight: 700;
+  font-size: 43px;
+}
+.section4LeftLowerParagraph{
+  white-space: pre;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  transform: translateX(15%) translateY(-70%);
+}
+.section4LeftLowerButton{
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  background: black;
+  display: block;
+  border: none;
+  outline: none;
+  padding: 18px 55px;
+  border-radius: 26px;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  transform: translateX(105%) translateY(-60%);
+  cursor: pointer;
+  transition: 0.3s linear;
+}
+.section4LeftLowerButton:hover{
+  opacity: .5;
+}
+.section4RightPlate{
+  height: 600px;
+  width: 600px;
+  display: block;
+  margin: 0 auto;
+  transform: translateX(50%) translateY(-70%);
+}
+.section5{
+  height: 1000px;
+  background: url("../images/back1.png") no-repeat center fixed;
+  background-size: cover;
+}
+.section5LeftLeaves{
+  width: 180px;
+  height: 470px;
+  display: block;
+  margin: 0 auto;
+  transform: translateX(340%) translateY(-24%);
+}
+.section5RightLeaves{
+  transform: translateX(30%) translateY(-130%);
+  width: 230px;
+  height: 280px;
+}
+.section5Title{
+  font-family: 'Rock Salt', cursive;
+  color: white;
+  text-align: center;
+  transform: translateY(-700%);
+  font-size: 40px;
+}
+.section5SubTitle{
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  text-align: center;
+  white-space: pre;
+  font-weight: 300;
+  letter-spacing: 1px;
+  font-size: 20px;
+  transform: translateY(-1200%);
+}
+.section5SubTextRectangle{
+  width: 150px;
+  height: 10px;
+  background: white;
+  margin: 0 auto;
+  transform: translateY(-6200%);
+}
+.section5PizzaImage{
+  display: block;
+  margin: 0 auto;
+  transform: translateX(25%) translateY(-70%);
+}
+.section5PizzaSliceImage{
+  display: block;
+  margin: 0 auto;
+  transform: translateX(-35%) translateY(-240%);
+}
+.section6{
+  height: 800px;
+}
+#section6TextColumns{
+  margin: 0 auto;
+  transform: translateX(10%) translateY(60%);
+}
+.section6ColumnTitles{
+  display:inline-block;
+  white-space: pre;
+  margin-left: 90px;
+}
+.section6ColumnTitles h1{
+  font-family: 'Rock Salt', cursive;
+  font-size: 40px;
+  transform: translateX(-10%);
+}
+.section6ColumnTitles p{
+  font-family: 'Open Sans', sans-serif;
+  margin-top: -30px;
+  transform: translateX(-5%);
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+.section6LowerParagraph{
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  white-space: pre;
+  transform: translateY(300%);
+  font-weight: 400;
+  font-size: 20px;
+}
+.section6SubParagraph{
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  transform: translateY(1300%);
+  font-weight: 600;
+}
+.section7{
+  height: 700px;
+  background-color: #27292c;
+}
+.section7Title{
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  font-size: 60px;
+  transform: translateY(220%);
+}
+.section7SubTitle{
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  white-space: pre;
+  letter-spacing: 1px;
+  font-size: 20px;
+  transform: translateY(380%);
+}
+.section7RightLeaves{
+  height: 240px;
+  width: 150px;
+  display: block;
+  margin: 0 auto;
+  transform: translateX(400%) translateY(-90%);
+}
+.section7LeftLowerLeaves{
+  height: 270px;
+  width: 230px;
+  display: block;
+  margin: 0 auto;
+  transform: translateX(-250%) translateY(30%);
+}
+.newsletterBoxContainer{
+  width: 700px;
+  height: 40px;
+  background-color: white;
+  margin: 0 auto;
+  border-radius: 26px;
+  transform: translateY(650%);
+}
+.boxEmail{
+  font-family: 'Open Sans', sans-serif;
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  border-radius: 26px;
+  padding: 0px 20px;
+  padding-right: 170px;
+  font-size: 16px;
+}
+.newsletterSubscribeButton{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  color: white;
+  height: 43px;
+  width: 150px;
+  border-radius: 26px;
+  border: none;
+  background-color: #54524f;
+  font-size: 16px;
+  position: absolute;
+  top: -1px;
+  right: -1px;
+  outline: none;
+  cursor: pointer;
+  transition: 0.3s linear;
+}
+.newsletterSubscribeButton:hover{
+  opacity: .5;
+}
+footer{
+  height: 750px;
+}
+.footerLeftPart{
+  white-space: pre;
+  margin-left: 100px;
+  transform: translateY(50%);
+}
+.footerLeftTitle{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  letter-spacing: 1px;
+  font-size: 35px;
+}
+.footerLeftParagraph{
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 1px;
+  width: 100px;
+  margin-top: -20px;
+  font-size: 20px;
+}
+.footerWebIcons{
+  display: table;
+  margin-left: -35px;
+  margin-top: -25px;
+}
+.footerWebIcon{
+  display: table-cell;
+}
+.footerWebIcon img{
+  width: 40px;
+  height: 40px;
+}
+.footerWebIcon a{
+  transition: 0.3s linear;
+}
+.footerWebIcon a:hover{
+  opacity: .5;
+}
+.footerNavigationTitle{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+.footerNavigationColumn{
+  transform: translateX(50%);
+  margin-left: 80px;
+}
+.footerNavigationLinks{
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 30px;
+  list-style: none;
+  letter-spacing: 1px;
+  display: block;
+  font-weight: 400;
+}
+.footerNavigationLinks li{
+  margin-top: 15px;
+}
+.footerNavigationLinks a{
+  color: black;
+  text-decoration: none;
+  transition: 0.3s linear;
+}
+.footerNavigationColumns{
+  display: flex;
+  flex-wrap: wrap;
+  transform: translateX(40%) translateY(-50%);
+}
+.footerNavigationColumns a:hover{
+  opacity: .5;
+}
